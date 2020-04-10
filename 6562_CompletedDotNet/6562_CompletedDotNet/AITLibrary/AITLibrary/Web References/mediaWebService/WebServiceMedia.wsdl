@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="showAllMedia">
+        <s:complexType />
+      </s:element>
+      <s:element name="showAllMediaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="showAllMediaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listMediaByYear">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="year" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listMediaByYearResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="listMediaByYearResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listMediaByGenre">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="genre" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listMediaByGenreResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="listMediaByGenreResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listMediaByTitle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="listMediaByTitleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="listMediaByTitleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addNewMedia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="genre" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="director" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="language" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="publishYear" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="budget" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addNewMediaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="addNewMediaResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateMedia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="mediaID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="genre" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="director" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="language" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="publishYear" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="budget" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateMediaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updateMediaResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteMedia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="mediaID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteMediaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteMediaResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllGenre">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllGenreResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllGenreResult" type="tns:ArrayOfPairModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfPairModel">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PairModel" nillable="true" type="tns:PairModel" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PairModel">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAllDirector">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllDirectorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllDirectorResult" type="tns:ArrayOfPairModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllLanguage">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllLanguageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllLanguageResult" type="tns:ArrayOfPairModel" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addGenre">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="genreName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addGenreResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="addGenreResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateGenre">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="genreName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="genreID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateGenreResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updateGenreResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteGenre">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="genreID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteGenreResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deleteGenreResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addLanguage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="languageName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addLanguageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="addLanguageResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateLanguage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="languageName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="languageID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateLanguageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updateLanguageResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteLanguage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="languageID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteLanguageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deleteLanguageResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addDirector">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="directorName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addDirectorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="addDirectorResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateDirector">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="directorName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="directorID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateDirectorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updateDirectorResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteDirector">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="directorID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteDirectorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deleteDirectorResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="showAllMediaSoapIn">
+    <wsdl:part name="parameters" element="tns:showAllMedia" />
+  </wsdl:message>
+  <wsdl:message name="showAllMediaSoapOut">
+    <wsdl:part name="parameters" element="tns:showAllMediaResponse" />
+  </wsdl:message>
+  <wsdl:message name="listMediaByYearSoapIn">
+    <wsdl:part name="parameters" element="tns:listMediaByYear" />
+  </wsdl:message>
+  <wsdl:message name="listMediaByYearSoapOut">
+    <wsdl:part name="parameters" element="tns:listMediaByYearResponse" />
+  </wsdl:message>
+  <wsdl:message name="listMediaByGenreSoapIn">
+    <wsdl:part name="parameters" element="tns:listMediaByGenre" />
+  </wsdl:message>
+  <wsdl:message name="listMediaByGenreSoapOut">
+    <wsdl:part name="parameters" element="tns:listMediaByGenreResponse" />
+  </wsdl:message>
+  <wsdl:message name="listMediaByTitleSoapIn">
+    <wsdl:part name="parameters" element="tns:listMediaByTitle" />
+  </wsdl:message>
+  <wsdl:message name="listMediaByTitleSoapOut">
+    <wsdl:part name="parameters" element="tns:listMediaByTitleResponse" />
+  </wsdl:message>
+  <wsdl:message name="addNewMediaSoapIn">
+    <wsdl:part name="parameters" element="tns:addNewMedia" />
+  </wsdl:message>
+  <wsdl:message name="addNewMediaSoapOut">
+    <wsdl:part name="parameters" element="tns:addNewMediaResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateMediaSoapIn">
+    <wsdl:part name="parameters" element="tns:updateMedia" />
+  </wsdl:message>
+  <wsdl:message name="updateMediaSoapOut">
+    <wsdl:part name="parameters" element="tns:updateMediaResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteMediaSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteMedia" />
+  </wsdl:message>
+  <wsdl:message name="DeleteMediaSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteMediaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllGenreSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllGenre" />
+  </wsdl:message>
+  <wsdl:message name="GetAllGenreSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllGenreResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllDirectorSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllDirector" />
+  </wsdl:message>
+  <wsdl:message name="GetAllDirectorSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllDirectorResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllLanguageSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllLanguage" />
+  </wsdl:message>
+  <wsdl:message name="GetAllLanguageSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllLanguageResponse" />
+  </wsdl:message>
+  <wsdl:message name="addGenreSoapIn">
+    <wsdl:part name="parameters" element="tns:addGenre" />
+  </wsdl:message>
+  <wsdl:message name="addGenreSoapOut">
+    <wsdl:part name="parameters" element="tns:addGenreResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateGenreSoapIn">
+    <wsdl:part name="parameters" element="tns:updateGenre" />
+  </wsdl:message>
+  <wsdl:message name="updateGenreSoapOut">
+    <wsdl:part name="parameters" element="tns:updateGenreResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteGenreSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteGenre" />
+  </wsdl:message>
+  <wsdl:message name="deleteGenreSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteGenreResponse" />
+  </wsdl:message>
+  <wsdl:message name="addLanguageSoapIn">
+    <wsdl:part name="parameters" element="tns:addLanguage" />
+  </wsdl:message>
+  <wsdl:message name="addLanguageSoapOut">
+    <wsdl:part name="parameters" element="tns:addLanguageResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateLanguageSoapIn">
+    <wsdl:part name="parameters" element="tns:updateLanguage" />
+  </wsdl:message>
+  <wsdl:message name="updateLanguageSoapOut">
+    <wsdl:part name="parameters" element="tns:updateLanguageResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteLanguageSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteLanguage" />
+  </wsdl:message>
+  <wsdl:message name="deleteLanguageSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteLanguageResponse" />
+  </wsdl:message>
+  <wsdl:message name="addDirectorSoapIn">
+    <wsdl:part name="parameters" element="tns:addDirector" />
+  </wsdl:message>
+  <wsdl:message name="addDirectorSoapOut">
+    <wsdl:part name="parameters" element="tns:addDirectorResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateDirectorSoapIn">
+    <wsdl:part name="parameters" element="tns:updateDirector" />
+  </wsdl:message>
+  <wsdl:message name="updateDirectorSoapOut">
+    <wsdl:part name="parameters" element="tns:updateDirectorResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteDirectorSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteDirector" />
+  </wsdl:message>
+  <wsdl:message name="deleteDirectorSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteDirectorResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceMediaSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="showAllMedia">
+      <wsdl:input message="tns:showAllMediaSoapIn" />
+      <wsdl:output message="tns:showAllMediaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="listMediaByYear">
+      <wsdl:input message="tns:listMediaByYearSoapIn" />
+      <wsdl:output message="tns:listMediaByYearSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="listMediaByGenre">
+      <wsdl:input message="tns:listMediaByGenreSoapIn" />
+      <wsdl:output message="tns:listMediaByGenreSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="listMediaByTitle">
+      <wsdl:input message="tns:listMediaByTitleSoapIn" />
+      <wsdl:output message="tns:listMediaByTitleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addNewMedia">
+      <wsdl:input message="tns:addNewMediaSoapIn" />
+      <wsdl:output message="tns:addNewMediaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateMedia">
+      <wsdl:input message="tns:updateMediaSoapIn" />
+      <wsdl:output message="tns:updateMediaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMedia">
+      <wsdl:input message="tns:DeleteMediaSoapIn" />
+      <wsdl:output message="tns:DeleteMediaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGenre">
+      <wsdl:input message="tns:GetAllGenreSoapIn" />
+      <wsdl:output message="tns:GetAllGenreSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDirector">
+      <wsdl:input message="tns:GetAllDirectorSoapIn" />
+      <wsdl:output message="tns:GetAllDirectorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllLanguage">
+      <wsdl:input message="tns:GetAllLanguageSoapIn" />
+      <wsdl:output message="tns:GetAllLanguageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addGenre">
+      <wsdl:input message="tns:addGenreSoapIn" />
+      <wsdl:output message="tns:addGenreSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateGenre">
+      <wsdl:input message="tns:updateGenreSoapIn" />
+      <wsdl:output message="tns:updateGenreSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteGenre">
+      <wsdl:input message="tns:deleteGenreSoapIn" />
+      <wsdl:output message="tns:deleteGenreSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addLanguage">
+      <wsdl:input message="tns:addLanguageSoapIn" />
+      <wsdl:output message="tns:addLanguageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateLanguage">
+      <wsdl:input message="tns:updateLanguageSoapIn" />
+      <wsdl:output message="tns:updateLanguageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteLanguage">
+      <wsdl:input message="tns:deleteLanguageSoapIn" />
+      <wsdl:output message="tns:deleteLanguageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addDirector">
+      <wsdl:input message="tns:addDirectorSoapIn" />
+      <wsdl:output message="tns:addDirectorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateDirector">
+      <wsdl:input message="tns:updateDirectorSoapIn" />
+      <wsdl:output message="tns:updateDirectorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteDirector">
+      <wsdl:input message="tns:deleteDirectorSoapIn" />
+      <wsdl:output message="tns:deleteDirectorSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceMediaSoap" type="tns:WebServiceMediaSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="showAllMedia">
+      <soap:operation soapAction="http://tempuri.org/showAllMedia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listMediaByYear">
+      <soap:operation soapAction="http://tempuri.org/listMediaByYear" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listMediaByGenre">
+      <soap:operation soapAction="http://tempuri.org/listMediaByGenre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listMediaByTitle">
+      <soap:operation soapAction="http://tempuri.org/listMediaByTitle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addNewMedia">
+      <soap:operation soapAction="http://tempuri.org/addNewMedia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateMedia">
+      <soap:operation soapAction="http://tempuri.org/updateMedia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMedia">
+      <soap:operation soapAction="http://tempuri.org/DeleteMedia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGenre">
+      <soap:operation soapAction="http://tempuri.org/GetAllGenre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDirector">
+      <soap:operation soapAction="http://tempuri.org/GetAllDirector" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllLanguage">
+      <soap:operation soapAction="http://tempuri.org/GetAllLanguage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addGenre">
+      <soap:operation soapAction="http://tempuri.org/addGenre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateGenre">
+      <soap:operation soapAction="http://tempuri.org/updateGenre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteGenre">
+      <soap:operation soapAction="http://tempuri.org/deleteGenre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addLanguage">
+      <soap:operation soapAction="http://tempuri.org/addLanguage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateLanguage">
+      <soap:operation soapAction="http://tempuri.org/updateLanguage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteLanguage">
+      <soap:operation soapAction="http://tempuri.org/deleteLanguage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addDirector">
+      <soap:operation soapAction="http://tempuri.org/addDirector" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateDirector">
+      <soap:operation soapAction="http://tempuri.org/updateDirector" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteDirector">
+      <soap:operation soapAction="http://tempuri.org/deleteDirector" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceMediaSoap12" type="tns:WebServiceMediaSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="showAllMedia">
+      <soap12:operation soapAction="http://tempuri.org/showAllMedia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listMediaByYear">
+      <soap12:operation soapAction="http://tempuri.org/listMediaByYear" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listMediaByGenre">
+      <soap12:operation soapAction="http://tempuri.org/listMediaByGenre" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listMediaByTitle">
+      <soap12:operation soapAction="http://tempuri.org/listMediaByTitle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addNewMedia">
+      <soap12:operation soapAction="http://tempuri.org/addNewMedia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateMedia">
+      <soap12:operation soapAction="http://tempuri.org/updateMedia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMedia">
+      <soap12:operation soapAction="http://tempuri.org/DeleteMedia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGenre">
+      <soap12:operation soapAction="http://tempuri.org/GetAllGenre" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDirector">
+      <soap12:operation soapAction="http://tempuri.org/GetAllDirector" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllLanguage">
+      <soap12:operation soapAction="http://tempuri.org/GetAllLanguage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addGenre">
+      <soap12:operation soapAction="http://tempuri.org/addGenre" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateGenre">
+      <soap12:operation soapAction="http://tempuri.org/updateGenre" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteGenre">
+      <soap12:operation soapAction="http://tempuri.org/deleteGenre" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addLanguage">
+      <soap12:operation soapAction="http://tempuri.org/addLanguage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateLanguage">
+      <soap12:operation soapAction="http://tempuri.org/updateLanguage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteLanguage">
+      <soap12:operation soapAction="http://tempuri.org/deleteLanguage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addDirector">
+      <soap12:operation soapAction="http://tempuri.org/addDirector" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateDirector">
+      <soap12:operation soapAction="http://tempuri.org/updateDirector" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteDirector">
+      <soap12:operation soapAction="http://tempuri.org/deleteDirector" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServiceMedia">
+    <wsdl:port name="WebServiceMediaSoap" binding="tns:WebServiceMediaSoap">
+      <soap:address location="http://localhost:51234/WebServiceMedia.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceMediaSoap12" binding="tns:WebServiceMediaSoap12">
+      <soap12:address location="http://localhost:51234/WebServiceMedia.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

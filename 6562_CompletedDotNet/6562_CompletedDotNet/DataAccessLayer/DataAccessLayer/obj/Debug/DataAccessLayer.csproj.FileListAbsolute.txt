@@ -1,0 +1,43 @@
+d:\Users\7019\Documents\Visual Studio 2015\Projects\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+d:\Users\7019\Documents\Visual Studio 2015\Projects\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+d:\Users\7019\Documents\Visual Studio 2015\Projects\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+d:\Users\7019\Documents\Visual Studio 2015\Projects\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+d:\Users\7019\Documents\Visual Studio 2015\Projects\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+d:\Users\7019\Documents\Visual Studio 2015\Projects\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+d:\Users\6562\Desktop\AitLib\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+d:\Users\6562\Desktop\AitLib\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+d:\Users\6562\Desktop\AitLib\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+d:\Users\6562\Desktop\AitLib\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+d:\Users\6562\Desktop\AitLib\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+d:\Users\6562\Desktop\AitLib\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\DataAccessLayer\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\DataAccessLayer\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

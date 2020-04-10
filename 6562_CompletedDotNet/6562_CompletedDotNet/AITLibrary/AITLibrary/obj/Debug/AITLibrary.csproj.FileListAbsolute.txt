@@ -1,0 +1,28 @@
+d:\users\7019\documents\visual studio 2015\Projects\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe.config
+d:\users\7019\documents\visual studio 2015\Projects\AITLibrary\AITLibrary\obj\Debug\AITLibrary.csprojResolveAssemblyReference.cache
+d:\users\7019\documents\visual studio 2015\Projects\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Form1.resources
+d:\users\7019\documents\visual studio 2015\Projects\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Properties.Resources.resources
+d:\users\7019\documents\visual studio 2015\Projects\AITLibrary\AITLibrary\obj\Debug\AITLibrary.csproj.GenerateResource.Cache
+d:\Users\7019\Documents\Visual Studio 2015\Projects\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe
+d:\Users\7019\Documents\Visual Studio 2015\Projects\AITLibrary\AITLibrary\bin\Debug\AITLibrary.pdb
+d:\Users\7019\Documents\Visual Studio 2015\Projects\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.dll
+d:\Users\7019\Documents\Visual Studio 2015\Projects\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.dll
+d:\Users\7019\Documents\Visual Studio 2015\Projects\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.pdb
+d:\Users\7019\Documents\Visual Studio 2015\Projects\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.pdb
+d:\Users\7019\Documents\Visual Studio 2015\Projects\AITLibrary\AITLibrary\obj\Debug\AITLibrary.exe
+d:\Users\7019\Documents\Visual Studio 2015\Projects\AITLibrary\AITLibrary\obj\Debug\AITLibrary.pdb
+d:\Users\7019\Documents\Visual Studio 2015\Projects\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Form2.resources
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe.config
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\AITLibrary.exe
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\AITLibrary.pdb
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\AITLibrary.csprojResolveAssemblyReference.cache
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Form1.resources
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Properties.Resources.resources
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\AITLibrary.csproj.GenerateResource.Cache
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\AITLibrary.pdb
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.dll
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.dll
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.pdb
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.pdb
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\AITLibrary.MediaForm.resources

@@ -1,0 +1,115 @@
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe.config
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\AITLibrary.pdb
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.dll
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.dll
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.pdb
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.pdb
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csprojResolveAssemblyReference.cache
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Form1.resources
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\AITLibrary.MediaForm.resources
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Properties.Resources.resources
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csproj.GenerateResource.Cache
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\AITLibrary.exe
+d:\Users\6562\Desktop\AitLib\AITLibrary\AITLibrary\obj\Debug\AITLibrary.pdb
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe.config
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.exe
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.pdb
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\AITLibrary.pdb
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.dll
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.dll
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.pdb
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.pdb
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csprojResolveAssemblyReference.cache
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Form1.resources
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.MediaForm.resources
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Properties.Resources.resources
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csproj.GenerateResource.Cache
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminForm.resources
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminMediaForm.resources
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe.config
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.exe
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.pdb
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csprojResolveAssemblyReference.cache
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminForm.resources
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminMediaForm.resources
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Form1.resources
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.MediaForm.resources
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Properties.Resources.resources
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csproj.GenerateResource.Cache
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\AITLibrary.pdb
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.dll
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.dll
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.pdb
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.pdb
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe.config
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\AITLibrary.pdb
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.dll
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.dll
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.pdb
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.pdb
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csprojAssemblyReference.cache
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminForm.resources
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminMediaForm.resources
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Form1.resources
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.MediaForm.resources
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Properties.Resources.resources
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csproj.GenerateResource.cache
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csproj.CopyComplete
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.exe
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.pdb
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminReport.resources
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.MasterMaintainanceForm.resources
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csprojAssemblyReference.cache
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminForm.resources
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminMediaForm.resources
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminReport.resources
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Form1.resources
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.MasterMaintainanceForm.resources
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.MediaForm.resources
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Properties.Resources.resources
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csproj.GenerateResource.cache
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csproj.CoreCompileInputs.cache
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.exe
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\AITLibrary.pdb
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe.config
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\AITLibrary.pdb
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.dll
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.dll
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\BusinessLogic.pdb
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.pdb
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csproj.CopyComplete
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe.config
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.exe
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.pdb
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\bin\Debug\AITLibrary.pdb
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csprojResolveAssemblyReference.cache
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminForm.resources
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminMediaForm.resources
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminReport.resources
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Form1.resources
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.MasterMaintainanceForm.resources
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.MediaForm.resources
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Properties.Resources.resources
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csproj.GenerateResource.Cache
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe.config
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.exe
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.pdb
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\bin\Debug\AITLibrary.exe
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\bin\Debug\AITLibrary.pdb
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csprojResolveAssemblyReference.cache
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminForm.resources
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminMediaForm.resources
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.AdminReport.resources
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Form1.resources
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.MasterMaintainanceForm.resources
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.MediaForm.resources
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\AITLibrary.Properties.Resources.resources
+C:\Users\nirvi\Downloads\6562_CloudApp\6562_CompletedDotNet\6562_CompletedDotNet\AITLibrary\AITLibrary\obj\Debug\MyPrototype.csproj.GenerateResource.Cache

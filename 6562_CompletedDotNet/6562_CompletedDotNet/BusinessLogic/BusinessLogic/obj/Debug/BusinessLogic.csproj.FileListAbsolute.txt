@@ -1,0 +1,54 @@
+d:\Users\7019\Documents\Visual Studio 2015\Projects\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+d:\Users\7019\Documents\Visual Studio 2015\Projects\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.dll
+d:\Users\7019\Documents\Visual Studio 2015\Projects\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.pdb
+d:\Users\7019\Documents\Visual Studio 2015\Projects\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.dll
+d:\Users\7019\Documents\Visual Studio 2015\Projects\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.pdb
+d:\Users\7019\Documents\Visual Studio 2015\Projects\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.dll
+d:\Users\7019\Documents\Visual Studio 2015\Projects\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.pdb
+d:\Users\6562\Desktop\AitLib\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.dll
+d:\Users\6562\Desktop\AitLib\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.pdb
+d:\Users\6562\Desktop\AitLib\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.dll
+d:\Users\6562\Desktop\AitLib\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.pdb
+d:\Users\6562\Desktop\AitLib\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+d:\Users\6562\Desktop\AitLib\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.dll
+d:\Users\6562\Desktop\AitLib\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.pdb
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.dll
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.pdb
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.dll
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.pdb
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.dll
+d:\Users\6562\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.pdb
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.dll
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.pdb
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.dll
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.pdb
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.dll
+F:\dasdfasdfdsa\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.dll
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.pdb
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Nirvik\Desktop\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.dll
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.pdb
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Nirvik\Downloads\6562_Nirvik_Prototype (2)\6562_Nirvik_Prototype\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\BusinessLogic\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.dll
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\BusinessLogic\BusinessLogic\bin\Debug\DataAccessLayer.pdb
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\nirvi\Downloads\6562_CompletedDotNet\6562_CompletedDotNet\BusinessLogic\BusinessLogic\obj\Debug\BusinessLogic.pdb
